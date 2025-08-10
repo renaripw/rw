@@ -1,0 +1,118 @@
+/*Effects every page*/
+body {
+    background-color: blue;
+    margin: 0;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 750px;
+}
+
+#header {
+    /* height: 40px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top:10px;   */
+    background-color: white;
+}
+#header p {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    /* padding-left:50px;*/
+}
+.nav {
+    justify-content: center;
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:link {
+    color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;
+    font-family: arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: inline;
+    margin: 0 15px
+}
+
+a {
+    text-decoration: none;
+}
+p   {
+    text-indent: 25px;
+}
+/***************************************************************/
+
+/* Home Page*/
+h1 {
+    text-align: center;
+}
+
+img {
+  
+    display: block;
+    float:left;
+    width:200px;
+}
+/*********************************************************************/
+
+/* Coursework Page*/
+table   {
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+ th, td   {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+/*********************************************************************/
+
+/* Hobbies Page*/
+ol  {
+    line-height: 2
+}
+/*********************************************************************/
+
+/* Contact Page*/
+.last {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+}
+form    {
+line-height: 2;
+    
+}
+/*********************************************************************/
+
+
+
+
+/* Footer of every page*/
+footer {
+    text-align: center;
+    background-color: white;
+    color: blue;
+    padding-top: 10px;
+}
+/*************************************************************************/
